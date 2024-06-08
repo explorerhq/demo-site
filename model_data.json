@@ -1,5 +1,44 @@
 [
 {
+    "model": "explorer.databaseconnection",
+    "pk": 23,
+    "fields": {
+        "alias": "Northwind",
+        "engine": "django.db.backends.sqlite3",
+        "name": "northwind.db",
+        "user": "",
+        "password": "",
+        "host": "",
+        "port": ""
+    }
+},
+{
+    "model": "explorer.databaseconnection",
+    "pk": 24,
+    "fields": {
+        "alias": "sqlite-sakila.db",
+        "engine": "django.db.backends.sqlite3",
+        "name": "sqlite-sakila.db",
+        "user": "",
+        "password": "",
+        "host": "user_dbs/user_1/sqlite-sakila.db",
+        "port": ""
+    }
+},
+{
+    "model": "explorer.databaseconnection",
+    "pk": 27,
+    "fields": {
+        "alias": "demo_connection",
+        "engine": "django.db.backends.postgresql_psycopg2",
+        "name": "democonn",
+        "user": "cc",
+        "password": "password1",
+        "host": "foobar",
+        "port": "123"
+    }
+},
+{
     "model": "explorer.query",
     "pk": 3,
     "fields": {

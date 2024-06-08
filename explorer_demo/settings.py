@@ -71,7 +71,8 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
-    "explorer_demo.middleware.AutoLoginMiddleware"
+    "explorer_demo.middleware.AutoLoginMiddleware",
+    "explorer_demo.middleware.HeaderInjectionMiddleware"
 ]
 
 ROOT_URLCONF = "explorer_demo.urls"
@@ -79,7 +80,7 @@ ROOT_URLCONF = "explorer_demo.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [BASE_DIR / 'explorer_demo/templates'],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
