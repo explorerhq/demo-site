@@ -3,7 +3,7 @@
     "model": "explorer.databaseconnection",
     "pk": 23,
     "fields": {
-        "alias": "Northwind",
+        "alias": "northwind.db",
         "engine": "django.db.backends.sqlite3",
         "name": "northwind.db",
         "user": "",
@@ -91,7 +91,7 @@
         "created_at": "2024-05-15T14:24:36.467Z",
         "last_run_date": "2024-05-15T14:26:08.856Z",
         "snapshot": false,
-        "connection": "Northwind"
+        "connection": "northwind.db"
     }
 },
 {
@@ -105,7 +105,7 @@
         "created_at": "2024-05-15T14:27:13.784Z",
         "last_run_date": "2024-05-18T19:49:42.946Z",
         "snapshot": false,
-        "connection": "Northwind"
+        "connection": "northwind.db"
     }
 },
 {
@@ -189,7 +189,7 @@
         "created_at": "2024-05-17T19:38:30.243Z",
         "last_run_date": "2024-05-18T19:48:35.776Z",
         "snapshot": false,
-        "connection": "Northwind"
+        "connection": "northwind.db"
     }
 },
 {
@@ -203,7 +203,7 @@
         "created_at": "2024-05-17T19:39:09.467Z",
         "last_run_date": "2024-05-17T19:39:09.474Z",
         "snapshot": false,
-        "connection": "Northwind"
+        "connection": "northwind.db"
     }
 },
 {
@@ -217,7 +217,7 @@
         "created_at": "2024-05-17T19:39:47.813Z",
         "last_run_date": "2024-05-19T16:26:13.433Z",
         "snapshot": false,
-        "connection": "Northwind"
+        "connection": "northwind.db"
     }
 },
 {
@@ -231,7 +231,7 @@
         "created_at": "2024-05-17T19:41:32.179Z",
         "last_run_date": "2024-05-18T19:47:38.705Z",
         "snapshot": false,
-        "connection": "Northwind"
+        "connection": "northwind.db"
     }
 },
 {
@@ -6011,7 +6011,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-07T18:47:33.242Z",
         "duration": null,
-        "connection": "Northwinds",
+        "connection": "northwind.dbs",
         "success": true,
         "error": null
     }
@@ -6025,7 +6025,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-07T18:49:02.226Z",
         "duration": null,
-        "connection": "Northwinds",
+        "connection": "northwind.dbs",
         "success": true,
         "error": null
     }
@@ -6039,7 +6039,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-07T18:49:04.909Z",
         "duration": null,
-        "connection": "Northwinds",
+        "connection": "northwind.dbs",
         "success": true,
         "error": null
     }
@@ -6053,7 +6053,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-07T18:51:16.986Z",
         "duration": null,
-        "connection": "Northwinds",
+        "connection": "northwind.dbs",
         "success": true,
         "error": null
     }
@@ -6067,7 +6067,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-07T18:52:15.632Z",
         "duration": null,
-        "connection": "Northwinds",
+        "connection": "northwind.dbs",
         "success": true,
         "error": null
     }
@@ -6081,7 +6081,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-07T18:52:42.734Z",
         "duration": null,
-        "connection": "Northwinds",
+        "connection": "northwind.dbs",
         "success": true,
         "error": null
     }
@@ -6095,7 +6095,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-07T18:53:01.745Z",
         "duration": null,
-        "connection": "Northwinds",
+        "connection": "northwind.dbs",
         "success": true,
         "error": null
     }
@@ -6109,7 +6109,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-07T18:53:59.545Z",
         "duration": 1.6040802001953125,
-        "connection": "Northwinds",
+        "connection": "northwind.dbs",
         "success": true,
         "error": null
     }
@@ -6123,7 +6123,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-07T18:55:52.471Z",
         "duration": 1.6560554504394531,
-        "connection": "Northwinds",
+        "connection": "northwind.dbs",
         "success": true,
         "error": null
     }
@@ -6151,7 +6151,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-07T19:15:16.705Z",
         "duration": 2.557992935180664,
-        "connection": "Northwinds",
+        "connection": "northwind.dbs",
         "success": true,
         "error": null
     }
@@ -6165,7 +6165,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-07T19:15:27.500Z",
         "duration": 3.0841827392578125,
-        "connection": "Northwinds",
+        "connection": "northwind.dbs",
         "success": true,
         "error": null
     }
@@ -6627,7 +6627,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T13:26:11.268Z",
         "duration": null,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": false,
         "error": "near \"ISNULL\": syntax error"
     }
@@ -6641,7 +6641,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T13:26:46.326Z",
         "duration": 617.9451942443848,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -6655,7 +6655,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T13:27:26.320Z",
         "duration": null,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -6669,7 +6669,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T13:27:31.732Z",
         "duration": null,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -6683,7 +6683,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T13:27:36.966Z",
         "duration": null,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -6697,7 +6697,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T13:27:40.047Z",
         "duration": null,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -6711,7 +6711,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T13:28:04.091Z",
         "duration": null,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -6725,7 +6725,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T13:28:09.440Z",
         "duration": null,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -6739,7 +6739,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T13:28:09.628Z",
         "duration": null,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -6753,7 +6753,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T13:28:09.728Z",
         "duration": null,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -6767,7 +6767,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T13:28:10.252Z",
         "duration": null,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -6781,7 +6781,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T13:28:10.402Z",
         "duration": null,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -6795,7 +6795,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T13:28:10.509Z",
         "duration": null,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -6809,7 +6809,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T13:28:10.639Z",
         "duration": null,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -6823,7 +6823,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T13:28:10.769Z",
         "duration": null,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -6837,7 +6837,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T13:28:32.639Z",
         "duration": null,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -6907,7 +6907,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T14:09:14.924Z",
         "duration": 362.0281219482422,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -6921,7 +6921,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T14:24:36.477Z",
         "duration": 367.9337501525879,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -6935,7 +6935,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T14:24:39.418Z",
         "duration": 327.15487480163574,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -6949,7 +6949,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T14:24:51.657Z",
         "duration": 352.2200584411621,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -6963,7 +6963,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T14:24:53.109Z",
         "duration": 326.5228271484375,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -6977,7 +6977,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T14:24:54.671Z",
         "duration": 326.7650604248047,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7019,7 +7019,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T14:26:08.858Z",
         "duration": 352.6928424835205,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7033,7 +7033,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T14:27:09.230Z",
         "duration": 310.8952045440674,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7047,7 +7047,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T14:27:13.792Z",
         "duration": 271.41499519348145,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7061,7 +7061,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T14:27:26.393Z",
         "duration": 272.78780937194824,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7075,7 +7075,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T14:29:18.115Z",
         "duration": 374.7210502624512,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7103,7 +7103,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T14:54:25.253Z",
         "duration": 475.9800434112549,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7131,7 +7131,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T17:52:46.337Z",
         "duration": 405.03883361816406,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7159,7 +7159,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T19:13:17.616Z",
         "duration": 416.3639545440674,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7201,7 +7201,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-15T19:40:21.047Z",
         "duration": 401.2470245361328,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7369,7 +7369,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-17T00:56:30.258Z",
         "duration": null,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7593,7 +7593,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-17T19:38:30.254Z",
         "duration": 1.44195556640625,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7607,7 +7607,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-17T19:39:09.476Z",
         "duration": 1.6570091247558594,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7621,7 +7621,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-17T19:39:47.823Z",
         "duration": 1.4889240264892578,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7635,7 +7635,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-17T19:41:32.188Z",
         "duration": 188.39597702026367,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7663,7 +7663,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-17T19:42:12.055Z",
         "duration": 188.92717361450195,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7677,7 +7677,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-17T19:42:15.990Z",
         "duration": 2.4657249450683594,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7733,7 +7733,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-18T19:31:23.532Z",
         "duration": 182.9090118408203,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7747,7 +7747,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-18T19:46:38.833Z",
         "duration": 197.4470615386963,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7761,7 +7761,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-18T19:47:38.708Z",
         "duration": 190.1378631591797,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7775,7 +7775,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-18T19:47:47.365Z",
         "duration": 280.7888984680176,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7789,7 +7789,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-18T19:48:03.494Z",
         "duration": 373.84772300720215,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7803,7 +7803,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-18T19:48:35.779Z",
         "duration": 2.5551319122314453,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7817,7 +7817,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-18T19:49:42.948Z",
         "duration": 299.57103729248047,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7845,7 +7845,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-19T16:26:01.067Z",
         "duration": 271.0549831390381,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
@@ -7859,7 +7859,7 @@
         "run_by_user": 1,
         "run_at": "2024-05-19T16:26:13.435Z",
         "duration": 2.1970272064208984,
-        "connection": "Northwind",
+        "connection": "northwind.db",
         "success": true,
         "error": null
     }
