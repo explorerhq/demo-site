@@ -3,7 +3,7 @@ from django.core.management import call_command
 from django.conf import settings
 import json
 import subprocess
-from explorer.models import QueryLog, Query, QueryFavorite
+from explorer.models import QueryLog, Query, QueryFavorite, DatabaseConnection
 import os
 import logging
 
@@ -17,6 +17,7 @@ def reset_env():
         QueryLog.objects.all().delete()
         Query.objects.all().delete()
         QueryFavorite.objects.all().delete()
+        DatabaseConnection.objects.all().delete()
 
         # Define the absolute path to the JSON file
         file_path = os.path.join(settings.BASE_DIR, 'model_data.json')
