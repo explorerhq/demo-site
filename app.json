@@ -1,20 +1,51 @@
 {
-  "name": "SQL Explorer Demo Installation",
-  "description": "A barebones SQL Explorer setup, which can easily be deployed to Heroku.",
-  "image": "heroku/python",
-  "repository": "https://github.com/chrisclark/django-sql-explorer",
-  "keywords": ["python", "django", "sql"],
+  "name": "sql-explorer",
+  "repository": "https://github.com/explorerhq/django-sql-explorer",
+  "keywords": ["python", "django", "sql", "analytics", "reporting"],
+  "description": "Deploy SQL Explorer to Heroku with AI assistant and User Uploads",
+  "scripts": {},
   "env": {
-    "DJANGO_SECRET_KEY": {
-      "description": "The secret key for the Django application.",
-      "generator": "secret"
+    "AI_API_KEY": {
+      "required": true
+    },
+    "AI_BASE_URL": {
+      "required": true
+    },
+    "EXPLORER_S3_ACCESS_KEY": {
+      "required": true
+    },
+    "EXPLORER_S3_BUCKET": {
+      "required": true
+    },
+    "EXPLORER_S3_SECRET_KEY": {
+      "required": true
+    },
+    "REDIS_TLS_URL": {
+      "required": true
+    },
+    "REDIS_URL": {
+      "required": true
+    },
+    "SECRET_KEY": {
+      "required": true
     }
   },
-  "environments": {
-    "test": {
-      "scripts": {
-        "test": "./manage.py test --debug-mode"
-      }
+  "formation": {
+    "web": {
+      "quantity": 1
+    },
+    "worker": {
+      "quantity": 1
     }
-  }
+  },
+  "addons": [
+    "heroku-postgresql",
+    "heroku-redis"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "stack": "heroku-22"
 }
