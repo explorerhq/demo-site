@@ -7587,20 +7587,6 @@
 },
 {
     "model": "explorer.querylog",
-    "pk": 526,
-    "fields": {
-        "sql": "SELECT \r\n    cust.CustomerID, \r\n    cust.CompanyName, \r\n    cd.CustomerTypeID, \r\n    cd.CustomerDesc\r\nFROM \r\n    CustomerCustomerDemo ccd\r\nJOIN \r\n    CustomerDemographics cd ON ccd.CustomerTypeID = cd.CustomerTypeID\r\nJOIN \r\n    Customers cust ON ccd.CustomerID = cust.CustomerID;",
-        "query": 23,
-        "run_by_user": 1,
-        "run_at": "2024-05-17T19:39:47.823Z",
-        "duration": 1.4889240264892578,
-        "connection": "northwind.db",
-        "success": true,
-        "error": null
-    }
-},
-{
-    "model": "explorer.querylog",
     "pk": 527,
     "fields": {
         "sql": "WITH EmployeeSales AS (\r\n    SELECT \r\n        o.EmployeeID, \r\n        SUM(od.UnitPrice * od.Quantity) AS TotalSales\r\n    FROM \r\n        Orders o\r\n    JOIN \r\n        \"Order Details\" od ON o.OrderID = od.OrderID\r\n    GROUP BY \r\n        o.EmployeeID\r\n)\r\nSELECT \r\n    e.EmployeeID, \r\n    e.LastName, \r\n    e.FirstName, \r\n    e.Title, \r\n    es.TotalSales\r\nFROM \r\n    EmployeeSales es\r\nJOIN \r\n    Employees e ON es.EmployeeID = e.EmployeeID\r\nORDER BY \r\n    es.TotalSales DESC;",
@@ -7636,20 +7622,6 @@
         "run_by_user": 1,
         "run_at": "2024-05-17T19:42:12.055Z",
         "duration": 188.92717361450195,
-        "connection": "northwind.db",
-        "success": true,
-        "error": null
-    }
-},
-{
-    "model": "explorer.querylog",
-    "pk": 530,
-    "fields": {
-        "sql": "SELECT \r\n    cust.CustomerID, \r\n    cust.CompanyName, \r\n    cd.CustomerTypeID, \r\n    cd.CustomerDesc\r\nFROM \r\n    CustomerCustomerDemo ccd\r\nJOIN \r\n    CustomerDemographics cd ON ccd.CustomerTypeID = cd.CustomerTypeID\r\nJOIN \r\n    Customers cust ON ccd.CustomerID = cust.CustomerID;",
-        "query": 23,
-        "run_by_user": 1,
-        "run_at": "2024-05-17T19:42:15.990Z",
-        "duration": 2.4657249450683594,
         "connection": "northwind.db",
         "success": true,
         "error": null
@@ -7818,20 +7790,6 @@
         "run_by_user": 1,
         "run_at": "2024-05-19T16:26:01.067Z",
         "duration": 271.0549831390381,
-        "connection": "northwind.db",
-        "success": true,
-        "error": null
-    }
-},
-{
-    "model": "explorer.querylog",
-    "pk": 543,
-    "fields": {
-        "sql": "SELECT \r\n    cust.CustomerID, \r\n    cust.CompanyName, \r\n    cd.CustomerTypeID, \r\n    cd.CustomerDesc\r\nFROM \r\n    CustomerCustomerDemo ccd\r\nJOIN \r\n    CustomerDemographics cd ON ccd.CustomerTypeID = cd.CustomerTypeID\r\nJOIN \r\n    Customers cust ON ccd.CustomerID = cust.CustomerID;",
-        "query": 23,
-        "run_by_user": 1,
-        "run_at": "2024-05-19T16:26:13.435Z",
-        "duration": 2.1970272064208984,
         "connection": "northwind.db",
         "success": true,
         "error": null
