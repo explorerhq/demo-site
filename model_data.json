@@ -26,19 +26,6 @@
     }
 },
 {
-    "model": "explorer.databaseconnection",
-    "pk": 27,
-    "fields": {
-        "alias": "demo_connection",
-        "engine": "django.db.backends.postgresql_psycopg2",
-        "name": "democonn",
-        "user": "cc",
-        "password": "password1",
-        "host": "foobar",
-        "port": "123"
-    }
-},
-{
     "model": "explorer.query",
     "pk": 3,
     "fields": {
