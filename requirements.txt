@@ -5,6 +5,8 @@ whitenoise[brotli]>=6,<7
 django-sql-explorer[assistant,uploads]==5.1b1
 celery>=5.0
 redis>=5.0
+django-storages[s3]>=1.14
+boto3>=1.34
 
 # Both are needed, since in production (Heroku uses Linux) we want to install from source,
 # so that security updates from the underlying Heroku stack image are picked up automatically,
