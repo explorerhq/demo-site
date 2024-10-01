@@ -1,13 +1,20 @@
 import os
+import ssl
 
 from celery import Celery
 from celery.schedules import crontab
 
-
 # Set the default Django settings module for the "celery" program.
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "explorer_demo.settings")
 
-app = Celery("explorer_demo")
+app = Celery("explorer_demo",
+             broker_use_ssl={
+                 'ssl_cert_reqs': ssl.CERT_NONE
+             },
+             redis_backend_use_ssl={
+                 'ssl_cert_reqs': ssl.CERT_NONE
+             }
+             )
 
 # Using a string here means the worker doesn"t have to serialize
 # the configuration object to child processes.

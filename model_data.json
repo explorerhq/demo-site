@@ -9,7 +9,8 @@
         "user": "",
         "password": "",
         "host": "user_dbs/user_1/northwind.db",
-        "port": ""
+        "port": "",
+        "default": true
     }
 },
 {
@@ -22,7 +23,8 @@
         "user": "",
         "password": "",
         "host": "user_dbs/user_1/sqlite-sakila.db",
-        "port": ""
+        "port": "",
+        "default": false
     }
 },
 {
