@@ -1,6 +1,7 @@
 from celery import shared_task
 from django.core.management import call_command
 from django.conf import settings
+from django.contrib.sessions.models import Session
 import json
 import subprocess
 from explorer.models import QueryLog, Query, QueryFavorite, DatabaseConnection
@@ -18,6 +19,8 @@ def reset_env():
         Query.objects.all().delete()
         QueryFavorite.objects.all().delete()
         DatabaseConnection.objects.all().delete()
+        # Every visitor is auto-logged in, so sessions pile up; they get recreated on the next request
+        Session.objects.all().delete()
 
         # Define the absolute path to the JSON file
         file_path = os.path.join(settings.BASE_DIR, 'model_data.json')
