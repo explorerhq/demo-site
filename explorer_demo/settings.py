@@ -54,7 +54,9 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "explorer",
-    "storages"
+    "storages",
+    # Needed so Celery's autodiscovery imports explorer_demo/tasks.py and registers reset_env
+    "explorer_demo",
 ]
 
 MIDDLEWARE = [
